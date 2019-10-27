@@ -1,6 +1,10 @@
 function flaten(){
   var flatArray = [];
-  Array.prototype.forEach.call(arguments, (function(arg){Array.prototype.forEach.call(arg, (function(atomic){flatArray.push(atomic)}))}))
+  Array.prototype.forEach.call(arguments, (
+    function(arg){Array.prototype.forEach.call(arg, (
+      function(atomic){flatArray.push(atomic)
+      }))
+    }))
   return flatArray;
 }
 module.exports = flaten;
