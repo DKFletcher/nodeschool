@@ -3,7 +3,8 @@ let logger = require('./p_a_without_b');
 
 
 var info = logger('INFO:')
-console.log(info);
+// info('this is some info.')
+// console.log(info );
 // info('this is an info message')
 // INFO: this is an info message
 
