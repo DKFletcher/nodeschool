@@ -15,5 +15,8 @@
   "keywords": [
     "learning",
     "psychology"
-  ]
+  ],
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
 }
