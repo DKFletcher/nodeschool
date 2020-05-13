@@ -1,11 +1,19 @@
 {
-  "name": "now-to-npm",
+  "name": "ring",
   "version": "1.0.0",
-  "description": "",
+  "description": "Provides a ring in React",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "D K Fletcher",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DKFletcher"
+  },
+  "keywords": [
+    "learning",
+    "psychology"
+  ]
 }
