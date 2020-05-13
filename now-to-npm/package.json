@@ -1,6 +1,6 @@
 {
   "name": "ring",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Provides a ring in React",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,5 @@
     "learning",
     "psychology"
   ],
-  "dependencies": {
-    "@linclark/pkg": "^1.0.2"
-  }
+  "dependencies": {}
 }
